@@ -32,17 +32,24 @@ This project is a basic user registration system built using HTML and PHP, runni
 - **Web Server:** Nginx  
 - **Operating System:** Amazon Linux 2 (EC2)  
 
----
+
 
 ## 🚀 Setup Instructions
 
-### 1️⃣ Start Required Services
+### 🔑 Step 0: Launch EC2 and Connect via SSH
 
+1. Go to the [AWS EC2 Console](https://console.aws.amazon.com/ec2/)
+2. Launch an instance with **Amazon Linux 2** AMI
+3. Allow ports 22 (SSH), 80 (HTTP) in the **security group**
+4. Once instance is running, connect via SSH:
+
+```bash
+ssh -i your-key.pem ec2-user@<your-ec2-public-ip>
 
 sudo service nginx start
 sudo service mariadb start
+sudo mysql -u root -p
 
-now start mysql and create database users and table user
 CREATE DATABASE users;
 USE users;
 
@@ -57,6 +64,4 @@ CREATE TABLE user (
   address TEXT,
   country VARCHAR(50)
 );
-
-
 
