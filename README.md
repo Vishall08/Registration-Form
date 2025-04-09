@@ -8,7 +8,8 @@ This project is a basic user registration system built using HTML and PHP, runni
 
 ## 📁 Project Structure
 
-/usr/share/nginx/html/ ├── registration.html # Frontend form for user registration
+/usr/share/nginx/html/ 
+├── registration.html # Frontend form for user registration
 ├── submit.php # PHP script to handle form submission and store data in DB
 
 
@@ -37,7 +38,7 @@ This project is a basic user registration system built using HTML and PHP, runni
 
 ### 1️⃣ Start Required Services
 
-```bash
+
 sudo service nginx start
 sudo service mariadb start
 
