@@ -24,8 +24,8 @@ $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 // Database configuration
 $servername = "localhost";
 $username = "root";
-$password_db = "Pass@123";
-$dbname = "facebook";
+$password_db = "******";
+$dbname = "User";
 
 // Create DB connection
 $conn = new mysqli($servername, $username, $password_db, $dbname);
