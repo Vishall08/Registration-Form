@@ -65,7 +65,10 @@ CREATE TABLE user (
   country VARCHAR(50)
 );
 
+```
 
-![Screenshot (11)](https://github.com/user-attachments/assets/289ce8bc-52a6-46cb-b334-7e6138984988)
+![Screenshot (11)](https://github.com/user-attachments/assets/4c4e62a3-2c87-4d0c-9144-b17c2f56f74a)
 
-![Screenshot (10)](https://github.com/user-attachments/assets/6507e4d5-870d-4d49-bee6-53733ae2e640)
+![Screenshot (10)](https://github.com/user-attachments/assets/c690a864-9265-4f64-b365-df5a573a8cb6)
+
+
